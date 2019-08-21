@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "314439788502",
+    "firebase_url": "https://nabda-249002.firebaseio.com",
+    "project_id": "nabda-249002",
+    "storage_bucket": "nabda-249002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314439788502:android:5d0f5f683211949b",
+        "android_client_info": {
+          "package_name": "com.exampl.nabda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314439788502-0tbbe3qq6tn5ggr9jhfr57s9vji5vmjh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exampl.nabda",
+            "certificate_hash": "d9185ab170ff5144c7029ecc607b39e2541b5593"
+          }
+        },
+        {
+          "client_id": "314439788502-cphv6ahtmhi8o4arml30oubccfp03r3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsQo_W8IbRc9qeXtaZ40gD_MnmCRpP6ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314439788502-cphv6ahtmhi8o4arml30oubccfp03r3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

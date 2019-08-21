@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activities.PatientInformationActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Top_Logo_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.17" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Bottom_Logo_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Left_Logo_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Right_Logo_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.32" />
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/PatientInformationActivityLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/Top_Logo_Image_guideline"
+        app:layout_constraintLeft_toLeftOf="@+id/Left_Logo_Image_guideline"
+        app:layout_constraintRight_toLeftOf="@+id/Right_Logo_Image_guideline"
+        app:layout_constraintTop_toTopOf="@+id/Bottom_Logo_Image_guideline" />
+
+
+    <!-- Notifications Image -->
+    <android.support.constraint.Guideline
+        android:id="@+id/Top_Notifications_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Bottom_Notifications_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Left_Notifications_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Right_Notifications_Image_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/notifications"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/Top_Notifications_Image_guideline"
+        app:layout_constraintLeft_toLeftOf="@+id/Left_Notifications_Image_guideline"
+        app:layout_constraintRight_toLeftOf="@+id/Right_Notifications_Image_guideline"
+        app:layout_constraintTop_toTopOf="@+id/Bottom_Notifications_Image_guideline" />
+
+
+    <!-- Layout -->
+    <android.support.constraint.Guideline
+        android:id="@+id/Top_Layout_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Bottom_Layout_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.57" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Right_Layout_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.87" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Left_Layout_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/Bottom_Layout_guideline"
+        app:layout_constraintLeft_toLeftOf="@+id/Left_Layout_guideline"
+        app:layout_constraintRight_toLeftOf="@+id/Right_Layout_guideline"
+        app:layout_constraintTop_toTopOf="@+id/Top_Layout_guideline">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right">
+
+            <TextView
+                android:id="@+id/PatientNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="      تجريبى"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="اسم المريض: "
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right">
+
+
+            <TextView
+                android:id="@+id/WhoSavedPatientNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="      تجريبى"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="تم الحجز بواسطة: "
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right">
+
+
+            <TextView
+                android:id="@+id/PatientPhoneTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="      تجريبى"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="رقم الهاتف: "
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right">
+
+
+            <TextView
+                android:id="@+id/SavedDateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="      تجريبى"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="تاريخ الحجز: "
+                android:textColor="@android:color/white"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center|right">
+
+            <Spinner
+                android:id="@+id/ReservationTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="نوع الحجز"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Reservation Confirmation Button -->
+    <android.support.constraint.Guideline
+        android:id="@+id/Top_Reservation_Confirmation_Button_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Bottom_Reservation_Confirmation_Button_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.765" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Right_Reservation_Confirmation_Button_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/Left_Reservation_Confirmation_Button_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <Button
+        android:id="@+id/Reservation_Confirmation_Button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:text="تأكيد  الحجز"
+        android:autoSizeTextType="uniform"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorActiveButton"
+        app:layout_constraintBottom_toBottomOf="@+id/Bottom_Reservation_Confirmation_Button_guideline"
+        app:layout_constraintLeft_toLeftOf="@+id/Left_Reservation_Confirmation_Button_guideline"
+        app:layout_constraintRight_toLeftOf="@+id/Right_Reservation_Confirmation_Button_guideline"
+        app:layout_constraintTop_toTopOf="@+id/Top_Reservation_Confirmation_Button_guideline"/>
+
+</android.support.constraint.ConstraintLayout>

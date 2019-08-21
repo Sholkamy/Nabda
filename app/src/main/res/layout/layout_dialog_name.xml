@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/PatientNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:hint="اسم المريض" />
+
+    <EditText
+        android:id="@+id/PatientPhobeEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="رقم الهاتف"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:inputType="phone"
+        android:digits="0123456789+"
+        android:layout_below="@id/PatientNameEdit" />
+
+</RelativeLayout>

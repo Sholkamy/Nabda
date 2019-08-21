@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nabda</string>
+    <string name="facebook_app_id">403846980256397</string>
+    <string name="fb_login_protocol_scheme">fb403846980256397</string>
+
+    <!-- Main Activity String -->
+    <string name="Governorate">Governorate</string>
+    <string name="Zone">Zone</string>
+    <string name="Specialization">Dr  Specialty</string>
+    <string name="Search">Search</string>
+
+    <item name="ZoneError" type="id" />
+    <item name="SpecializationError" type="id" />
+
+    <string-array name="ReservationType">
+        <item>    حجز عادى    </item>
+        <item>    حجز مستعجل    </item>
+    </string-array>
+
+
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+
+
+</resources>

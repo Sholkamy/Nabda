@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".ListViewFilter.ZoneActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:text="Chose Ur Zone"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+
+    <ListView
+        android:id="@+id/primaryMessageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        android:background="@drawable/layout_round"
+        tools:listitem="@layout/item_view_filtter"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cansle"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center|start"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aplly"
+            android:textColor="@color/colorActiveButton"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center|end"/>
+    </LinearLayout>
+</LinearLayout>
